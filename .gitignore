@@ -146,4 +146,4 @@ typings/
 
 # End of https://www.gitignore.io/api/web,node,macos,visualstudiocode
 
-dist/
+dist
