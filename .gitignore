@@ -135,14 +135,14 @@ typings/
 *.asp
 *.cer
 *.csr
-*.css
-*.htm
-*.html
-*.js
+# *.css
+# *.htm
+# *.html
+# *.js
 *.jsp
 *.php
 *.rss
-*.xhtml
+# *.xhtml
 
 # End of https://www.gitignore.io/api/web,node,macos,visualstudiocode
 
