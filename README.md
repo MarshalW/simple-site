@@ -8,3 +8,7 @@
 - 静态网页技术原型，布局使用 css grid 和 flexbox
 
 ## 构建和运行
+
+## 实现历史
+
+- m1， 实现基础布局，header, nav, main 和 foote，使用 Grid

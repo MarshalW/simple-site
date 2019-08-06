@@ -1,0 +1,23 @@
+.app_nav {
+  grid-area: nav;
+  background-color: #313541;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+.menu_item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+.menu_link {
+  display: block;
+  padding: 1rem 2rem;
+  color: #76808f;
+  text-decoration: none;
+}
+.menu_link:hover,
+.menu_link:focus {
+  color: #fff;
+  background-color: #1f222d;
+}

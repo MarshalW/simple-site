@@ -1,3 +1,4 @@
+import "../css/main.css"
 import "./main.css"
 
 class Foo {

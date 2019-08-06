@@ -1,0 +1,23 @@
+.app_footer {
+  grid-area: footer;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 var(--spacing);
+  color: #4e5561;
+  background-color: #1d2127;
+}
+
+.ticker {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ticker_item {
+  margin-right: 1rem;
+}

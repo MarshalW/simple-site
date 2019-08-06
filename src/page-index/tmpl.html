@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>首页</title>
+    <title>工作台</title>
     <meta charset="UTF-8" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="pragma" content="no-cache" />
@@ -14,10 +14,42 @@
 
 <body>
     <div class="app">
-        <header class="app_header"></header>
-        <nav class="app_nav"></nav>
-        <main class="app_main"></main>
-        <footer class="app_footer"><%= require('html-loader!../partials/footer.html') %></footer>
+        ${require('html-loader!../partials/header.html')}
+        ${require('html-loader!../partials/nav.html')}
+        <main class="app_main">
+            <h2>工作台</h2>
+            <div class="dashboard">
+                <div class="dashboard_item">
+                    <div class="card">
+                        <strong>41</strong> 用户
+                    </div>
+                </div>
+                <div class="dashboard_item">
+                    <div class="card">
+                        <strong>¥ 810,944.712</strong> 收入
+                    </div>
+                </div>
+                <div class="dashboard_item dashboard_item-full">
+                    <div class="card">
+                        <img src="${require('../assets/E14f01.png')}" alt="" />
+                    </div>
+                </div>
+                <div class="dashboard_item dashboard_item-col">
+                    <div class="card">咖啡馆</div>
+                </div>
+                <div class="dashboard_item dashboard_item-col">
+                    <div class="card">便利店</div>
+                </div>
+                <div class="dashboard_item dashboard_item-col">
+                    <div class="card">加油站</div>
+                </div>
+                <div class="dashboard_item dashboard_item-col">
+                    <div class="card">快餐店</div>
+                </div>
+            </div>
+            <p>更多数据请见 <a href="#">报告明细</a>.</p>
+        </main>
+        ${require('html-loader!../partials/footer.html')}
     </div>
 
 </body>
