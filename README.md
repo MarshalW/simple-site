@@ -9,6 +9,30 @@
 
 ## 构建和运行
 
+开发：
+
+```
+npm start
+```
+
+构建：
+
+```
+npm run build
+```
+
+生成构建后的预览
+
+```
+npm run preview
+```
+
+构建 docker image
+
+```
+npm run docker:build
+```
+
 ## 实现历史
 
 - m1， 实现基础布局，header, nav, main 和 foote，使用 Grid
