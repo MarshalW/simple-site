@@ -12,3 +12,4 @@
 ## 实现历史
 
 - m1， 实现基础布局，header, nav, main 和 foote，使用 Grid
+- m2, 页面布局功能基本实现，使用 css 布局
