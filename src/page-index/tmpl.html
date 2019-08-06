@@ -13,14 +13,13 @@
 </head>
 
 <body>
-    <main>
-        <h1>
-            首页
-        </h1>
-    </main>
+    <div class="app">
+        <header class="app_header"></header>
+        <nav class="app_nav"></nav>
+        <main class="app_main"></main>
+        <footer class="app_footer"><%= require('html-loader!../partials/footer.html') %></footer>
+    </div>
 
-    <%= require('html-loader!../partials/footer.html') %>
-    
 </body>
 
 </html>
